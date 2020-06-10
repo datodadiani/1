@@ -1,0 +1,1143 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.navbar-light, .navbar-nav, .nav-link{
+    color: black;
+}
+
+.nav1{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(222,36,83);
+    position: relative;
+}
+
+.nav1 i{
+    border: 2px solid white;
+    padding: 9px 12px;
+    font-size: 60%;
+    margin: 14px 3px;
+    color: white;
+    transition: 0.8s;
+}
+
+.nav1 i:hover{
+    background-color: rgb(130,181,63);
+    border: 2px solid rgb(130,181,63);
+    cursor: pointer;
+}
+
+.nav1 p{
+    margin-left: 25%;
+}
+
+.nav1a{
+    position: absolute;
+    top: 0;
+    right: 25%;
+    background-color: rgb(130,181,63);
+    height: 60px;
+    width: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav1a a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 80%;
+}
+
+nav div:first-child{
+    margin-left: 32%;
+}
+
+.navbar-brand img{
+    height: 85%;
+}
+
+.navbar-brand{
+    padding-left: 40px;
+}
+
+nav{
+    height: 70px;
+    color: black;
+    font-weight: bolder;
+}
+
+.nav-link{
+    transition: 0.5s;
+}   
+
+.nav-link:hover{
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+
+nav ul{
+    margin-top: 30px;
+}
+
+.dropdown-menu{
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+.dropdown-item{
+    font-weight: bold;
+    font-size: 80%;
+    transition: 0.7s;
+}
+
+.dropdown-item:hover{
+    color: white;
+    background-color: rgb(130,181,63);
+    cursor: pointer;
+}
+
+.S1{
+    background-image: url(img/1.jpg);
+    height: 750px;
+    background-size: cover;
+    margin-bottom: 150px;
+    color: white;
+}
+
+.p1{
+    font-size: 175%;
+    text-align: start;
+}
+
+.p2{
+    font-size: 175%;
+}
+
+.S1rel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.S1abs{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.S1 button{
+    height: 55px;
+    width: 185px;
+    background-color: rgb(224,36,84);
+    color: white;
+    font-size: 115%;
+    border: none;
+    transition: 0.7s;
+}
+
+.S1 button:hover{
+    background-color: rgb(130,181,63);
+    border: none;
+    cursor: pointer;
+}
+
+.S1 h1{
+    margin-top: 15%;
+    font-size: 350%;
+}
+
+.S1{
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.S1abs2{
+    position: absolute;
+    bottom: -190px;
+    left: 450px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.abs21{
+    width: 320px;
+    height: 320px;
+    background-color: rgb(130,181,63);
+}
+
+.abs22{
+    width: 320px;
+    height: 320px;
+    background-color: rgb(35,54,69);
+}
+
+.abs23{
+    width: 320px;
+    height: 320px;
+    background-color: rgb(224,36,84);
+    text-align: center;
+}
+
+.S1 i{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 120%;
+}
+
+.days{
+    font-weight: bold;
+}
+
+.time{
+    font-weight: bold;
+}
+
+.sch{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.abs23 form{
+    margin-top: 90px;
+}
+
+.abs23 button{
+    background-color: rgb(35,54,69);
+    width: 280px;
+}
+
+.abs23 input{
+    background-color: white;
+    border: none;
+    width: 280px;
+    height: 55px;
+    text-align: center;
+}
+
+.S2{
+    margin-top: 550px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 25px;
+}
+
+.S2 aside{
+    width: 35%;
+}
+
+.S2 img{
+margin-bottom: 95px;
+}
+
+.S2 h1{
+    color: black;
+}
+
+.dentist{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.dentist p{
+    font-size: 120%;
+    font-weight: bold;
+    color: rgb(11, 11, 78);
+    border-bottom: 1px solid red;
+    width: 215px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    transition: 1s;
+}
+
+.dentist p:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.dentist i{
+    color: skyblue;
+}
+
+.S2 button{
+    height: 55px;
+    width: 185px;
+    background-color: rgb(224,36,84);
+    color: white;
+    font-size: 115%;
+    border: none;
+    margin-top: 50px;
+    transition: 0.7s;
+}
+
+.S2 button:hover{
+    background-color: rgb(130,181,63);
+    border: none;
+    cursor: pointer;
+}
+
+.S3{
+    height: 900px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.S3 h1{
+    padding-top: 65px;
+    color: black;
+}
+
+.Services{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.Serv1{
+    margin-left: 20%;
+    margin-top: 2%;
+    width: 29%;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 9px 8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Serv2{
+    margin-right: 20%; 
+    margin-top: 2%;
+    width: 29%;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 9px 8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Serv3{
+    margin-left: 20%;
+    margin-top: 2%;
+    width: 29%;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 9px 8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Serv4{
+    margin-right: 20%; 
+    margin-top: 2%;
+    width: 29%;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 9px 8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.S3 button{
+    height: 55px;
+    width: 185px;
+    background-color: rgb(224,36,84);
+    color: white;
+    font-size: 115%;
+    border: none;
+    transition: 0.7s;
+    margin-top: 20px;
+}
+
+.S3 button:hover{
+    background-color: rgb(130,181,63);
+    border: none;
+    cursor: pointer;
+}
+
+.S3 h2{
+    margin-top: 10px;   
+    font-size: 120%;
+    transition: 0.7s;
+}
+
+.Serv11{
+    width: 50%;
+    text-align: start;
+    align-items: center;
+    padding-left: 7px;
+    padding-top: 27px;
+}
+
+.Serv31{
+    width: 50%;
+    text-align: start;
+    align-items: center;
+    padding-left: 7px;
+    padding-top: 27px;
+}
+
+.Serv21{
+    width: 50%;
+    text-align: start;
+    align-items: center;
+    padding-left: 7px;
+    padding-top: 27px;
+}
+
+.Serv41{
+    width: 50%;
+    text-align: start;
+    align-items: center;
+    padding-left: 7px;
+    padding-top: 27px;
+}
+
+.Serv12{
+    margin-top: 30px;
+    width: 270px;
+    height: 192px;
+    background-image: url(img/3.jpg);
+    background-size: 100%;
+    transition: 0.8s;
+}
+
+.Serv12:hover{
+    background-size: 120%;
+    cursor: pointer;
+}
+
+.Serv22{
+    margin-top: 30px;
+    width: 270px;
+    height: 192px;
+    background-image: url(img/4.jpg);
+    background-size: 100%;
+    transition: 0.8s;
+}
+
+.Serv22:hover{
+    background-size: 120%;
+    cursor: pointer;
+}
+
+.Serv32{
+    margin-top: 30px;
+    width: 270px;
+    height: 192px;
+    background-image: url(img/5.jpg);
+    background-size: 100%;
+    transition: 0.8s;
+}
+
+.Serv32:hover{
+    background-size: 120%;
+    cursor: pointer;
+}
+
+.Serv42{
+    margin-top: 30px;
+    width: 270px;
+    height: 192px;
+    background-image: url(img/6.jpg);
+    background-size: 100%;
+    transition: 0.8s;
+}
+
+.Serv42:hover{
+    background-size: 120%;
+    cursor: pointer;
+}
+
+.S3 h2:hover{
+    color: rgb(130,181,63);
+    cursor: pointer;
+}
+
+.S4{
+    margin-top: 75px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 75px;
+}
+
+.carousel-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 270%;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.cardoc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrel{
+    position: relative;
+    margin: 10px;
+    transition: 0.7s;
+}
+
+.carimg{
+    width: 250px;
+    padding-bottom: 65px;
+}
+
+.cartxt{
+    position: absolute;
+    background-color: rgb(224,36,84);
+    color: white;
+    bottom: -65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 65px;
+    font-weight: bold;
+    font-size: 260%;
+    padding-bottom: 100px;
+}
+
+.cartxtrel{
+    position: absolute;
+    background-color: rgb(224,36,84);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: -2;
+    width: 250px;
+    height: 325px;
+    top: 0px;
+    left: 0px;
+    transition: 0.7s;
+}
+
+.carrel{
+    transition: 0.7s;
+}
+
+.carrel:hover .cartxtrel{
+    z-index: 1;
+}
+
+.cartxtrel:hover{
+    z-index: 1;
+}
+
+.cartitle{
+    margin-bottom: 5px;
+    transition: 0.7s;
+}
+
+.cartitle:hover{
+    color: rgb(130,181,63);
+}
+
+.carpa{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.caricons{
+    display: flex;
+}
+
+.caricons i{
+    margin: 10px;
+    margin-top: 15px;
+    border: 2px solid white;
+    font-size: 70%;
+    padding: 7px 7px;
+    transition: 0.7s;
+}
+
+.caricons i:hover{
+    background-color: rgb(130,181,63);
+    border: 2px solid rgb(130,181,63);
+}
+
+.carrel:hover .cartxtrel{
+    z-index: 1;
+}
+.S5{
+    padding-top: 75px;
+    background-color: rgb(235, 235, 235);
+    height: 1400px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.S5 .container{
+    margin-top: 50px;
+    margin-left: 20%;
+    width: 60%;
+    text-align: center;
+}
+
+.row{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.S5 img{
+    width: 100%;
+}
+
+.col1{
+    padding-right: 8px;
+}
+
+.col2{
+    padding-left: 8px;
+}
+
+.S5 .container{
+    position: relative;
+}
+
+.S5 h1{
+    color: black;
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background-color: white;
+    position: absolute;
+    top: 46.5%;
+    left: 46.5%;
+    z-index: 5;
+}
+
+.S5 .col{
+    position: relative;
+}
+
+.S5abs1{
+    position: absolute;
+    height: 50px;
+    bottom: 0px;
+    left: 15px;
+    right: 8px;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.842));
+    z-index: 5;
+    color: white;
+    font-size: 120%;
+    font-weight: 500;
+    text-align: start;
+    padding-left: 21px;
+    padding-top: 5px;
+}
+
+.S5abs2{
+    position: absolute;
+    height: 50px;
+    bottom: 0px;
+    left: 8px;
+    right: 15px;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.842));
+    z-index: 5;
+    color: white;
+    font-size: 120%;
+    font-weight: 500;
+    text-align: start;
+    padding-left: 21px;
+    padding-top: 5px;
+}
+
+.S5p{
+    color: rgba(128, 128, 128, 0.425);
+    width: 580px;
+    font-weight: bold;
+    margin-left: 660px;
+}
+
+.S6 h1{
+    margin-bottom: 50px;
+    color: black;
+}
+
+.S6{
+    text-align: center;
+    height: 700px;
+}
+
+.text-left{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-link{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn-link:hover{
+    color: White;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn{
+    border: 1px solid rgb(224,36,84);
+    background-color: rgb(224,36,84);
+    border-radius: 0px;
+}
+
+.card-header{
+    padding: 0;
+}
+
+.S6 .card{
+    margin-bottom: 20px;
+}
+
+.S6 .card-body{
+    border: 1px solid rgb(224,36,84);
+}
+
+.S6 .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.S6 .col-8{
+    max-width: 60%;
+}
+
+.S6 .col-4{
+    max-width: 36.3%;
+}
+
+.S6 img{
+    width: 85%;
+}
+
+.S6 h3{
+    font-size: 225%;
+}
+
+.feedback{
+    color: rgba(128, 128, 128, 0.623);
+    font-weight: bold;
+}
+
+.S6 input{
+    height: 40px;
+    padding: 0.375rem 1.2rem;
+    border-radius: 0;
+    border: 2px solid #ddd;
+    width: 100%;
+    background: none;
+}
+
+.S6 input:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(224,36,84);
+}
+
+.S6btn{
+    height: 55px;
+    width: 185px;
+    background-color: rgb(224,36,84);
+    color: white;
+    font-size: 115%;
+    border: none;
+    transition: 0.7s;
+    margin-top: 20px;
+}
+
+.S6btn:hover{
+    background-color: rgb(130,181,63);
+    border: none;
+    cursor: pointer;
+}
+
+.S7{
+    background-color: rgb(235,235,235);
+    margin-top: 65px;
+    height: 700px;   
+    text-align: center;
+}
+
+.S7 h1{
+    padding-top: 65px;
+    font-weight: bold;
+    transition: 0.7s;
+    color: black;
+}
+
+.S7 h2:hover{
+    color: rgb(130,181,63);
+}
+
+.S7 .row{
+    margin: 0px 15%;
+    margin-top: 65px;
+}
+
+.S7 .col-3{
+    height: 430px;
+    background-color: white;
+    max-width: 21%;
+    margin-left: 35px;
+}
+
+.S7 p{
+    padding-top: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #99999994;
+    font-weight: bold;
+}
+
+.S7 h2{
+    padding-top: 15px;
+    font-size: 170%;
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+.nth3{
+    padding-top: 10px;
+}
+
+.S8{
+    background-attachment:scroll;
+    background-image: url(img/21.jpg);
+    height: 800px;
+    text-align: center;
+}
+
+.S8 h1{
+    color: white;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+.BLOG{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+}
+
+.S81{
+    position: relative;
+    width: 361px;
+    height: 550px;
+    background-color: white;
+}
+
+.S81 img{
+    width: 100%;
+    height: 100%;
+}
+
+.S81img{
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.date1{
+    width: 70px;
+    height: 50px;
+    background-color: rgb(222,36,83);
+    color: white;
+    top: 200px;
+    left: 250px;
+    position: absolute;
+}
+
+.date1 h2{
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.date2{
+    width: 70px;
+    height: 23px;
+    background-color: rgb(130,181,63);
+    color: white;
+    top: 250px;
+    left: 250px;
+    position: absolute;
+    font-size: 85%;
+}
+
+.S8txt{
+    position: absolute;
+    top: 270px;
+    left: 0px;
+}
+
+.S8txt i{
+    color: rgb(222,36,83);
+    font-size: 115%;
+    padding-left: 10px;
+}
+
+.S8txt p:first-child{
+    color: rgba(128, 128, 128, 0.425);
+    width: 230px;
+}
+
+.S8txt p{
+    color: rgba(128, 128, 128, 0.623);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.S8 h3{
+    font-weight: bold;
+    transition: 0.7s;
+}
+
+.S8 h3:hover{
+    color: rgb(130,181,63);
+}
+
+.S8 .S6btn{
+    width: 300px;
+}
+
+.S9{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(231, 230, 230, 0.425);
+    margin-bottom: 100px;
+}
+
+.demoD{
+    margin: 50px 30px;
+    transition: 0.7s;
+}
+
+.demoD:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    margin-top: 50px;
+}
+
+.footerrel{
+    margin-top: 50px;
+    height: 570px;
+    position: relative;
+    background-color: rgb(35,54,69);
+}
+
+.footerrel i{
+    color: rgb(222,36,83);
+    font-size: 110%;
+}
+
+.footerabs{
+    position: absolute;
+    top: -65px;
+    left: 20%;
+    width: 60%;
+    height: 130px;
+    background-color: rgb(253, 251, 251);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+footer button{
+    background-color: rgb(224,36,84);
+    height: 130px;
+    width: 175px;
+    font-weight: bold;
+    font-size: 120%;
+    border: none;
+    transition: 0.7s;
+    color: white;
+}
+
+footer button:hover{
+    background-color: rgb(130,181,63);
+    outline: none;
+    border: none;
+}
+
+footer input{
+    width: 370px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px 5px;
+    font-size: 80%;
+}
+
+footer input:focus{
+    border: 2px solid black;
+    border-radius: 15px; 
+    outline: none;
+}
+
+footer .container{
+    max-width: 60%;
+    background-color: rgb(35,54,69);
+    height: 400px;
+    position: absolute;
+    top: 140px;
+    left: 20%;
+}
+
+footer .col-3{
+    background-color: black;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 23%;
+    flex: 0 0 23%;
+    background-color: rgb(35,54,69);
+}
+
+footer .container p,h3,h1{
+    color: white;
+    
+}
+
+footer .container h1{
+    font-size: 150%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+footer .container h3{
+    font-size: 130%;
+    font-weight: bold;
+}
+
+footer .container p{
+    padding-left: 23px;
+    width: 220px;
+    margin-bottom: 30px;
+}
+
+footer .container .col-3:nth-child(2) span{
+    display: block;
+    font-weight: bold;
+}
+
+footer .container .col-3:nth-child(2) p{
+    padding-left: 23px;
+    width: 220px;
+    margin-bottom: 17px;
+}
+
+ul{
+    list-style: none;
+}
+
+footer .container ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 125%;
+}
+
+.ul1 li{
+    padding: 7px 0;
+}
+
+.ul1 li a:hover{
+    text-decoration: none;
+}
+
+.ftinput{
+    position: relative;
+}
+
+.ftinput input{
+    background-color: white;
+    border-color: rgb(222,36,83);
+    color: #999;
+    width: 185px;
+    border-radius: 0px;
+    height: 50px;
+    padding: 10px 10px;
+}
+
+.ftinput input:focus{
+    outline: none;
+    border-color: rgb(222,36,83);
+    border-radius: 0px;
+}
+
+.ftbtn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.ftbtn button{
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+}
+
+.fticons{
+    width: 25%;
+    margin-top: 20px;
+}
+
+.fticons p{
+    padding-left:0!important;
+    margin:0;
+    padding: 0px;
+}
+
+.fticons p i{
+    cursor: pointer;
+    font-size: 65%;
+    color: white;
+    border: 2px solid white;
+    padding: 7px 8px;
+    margin-right: 3px;
+    transition: 0.7s;
+}
+
+.fticons i:hover{
+    background-color: rgb(130,181,63);
+    border: 2px solid rgb(130,181,63);
+}
